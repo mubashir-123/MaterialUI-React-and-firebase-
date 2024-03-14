@@ -25,8 +25,8 @@ const Protectedroutes = ({ components }) => {
 
     return (
     
-            isUser ? components : <Typography variant="h1" color="initial" >Loading ...</Typography>
-    )
+            isUser ? components : <Typography className='text-center text-primary mt-5' variant="h3" color="initial" >Loading ...</Typography>
+    ) 
 }
 
 export default Protectedroutes
